@@ -37,3 +37,7 @@ java -Dduration=10 -DcreatedBy=y0s053a -Dcomment="testing flow" -DsilenceScus=tr
 
 
 java -DscusSilencePath=/Users/y0s053a/Documents/testingSilenceAlerts/rules.yaml -Dduration=10 -DcreatedBy=y0s053a -Dcomment="testing flow" -DsilenceScus=true -jar /Users/y0s053a/Documents/personal-work/StressTestSilenceAlerts/target/StressTestSilenceAlerts-1.0-jar-with-dependencies.jar
+
+
+
+java -DwusSilencePath=/Users/y0s053a/Documents/testingSilenceAlerts/wus-rules.yaml  -DscusSilencePath=/Users/y0s053a/Documents/testingSilenceAlerts/scus-rules.yaml -Dduration=10 -DcreatedBy=titan-team-test -Dcomment="testing flow" -DsilenceScus=true -DsilenceWus=true -jar /Users/y0s053a/Documents/testingSilenceAlerts/StressTestSilenceAlerts-1.0-jar-with-dependencies.jar
