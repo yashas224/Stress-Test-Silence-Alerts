@@ -1,0 +1,11 @@
+rules:
+  - alert: test Alert SCUS
+    annotations:
+      summary: test summary.
+    expr: sum(increase({app="tbx",code!~"(200|401|400)",tenant_id=""}[1m])) * 100 / sum(increase({app="tbx",tenant_id=""}[1m])) > 0.05
+    for: 5m
+    labels:
+      team: test-team
+      app: test-app
+      env: test
+      support: false

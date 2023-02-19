@@ -1,0 +1,39 @@
+Target Weekend - silences Alerts java project
+
+
+https://www.digitalocean.com/community/tutorials/exec-maven-plugin-run-java-programs-maven-build
+
+
+// REST client java
+
+https://kodejava.org/how-do-i-get-http-response-body-as-a-string/#:~:text=To%20get%20the%20response%20body,set%20from%20the%20entity%20object.
+https://itnext.io/how-to-create-a-simple-rest-client-for-testing-your-api-a0554d8380f8
+https://mkyong.com/webservices/jax-rs/restfull-java-client-with-java-net-url/
+https://stackoverflow.com/questions/221442/how-do-you-create-a-rest-client-for-java
+https://www.javaguides.net/2018/10/apache-httpclient-html-form-post-request-example.html
+https://www.baeldung.com/httpclient-post-http-request
+
+
+
+// read YAML in java
+
+https://www.w3schools.io/file/yaml-arrays/
+https://www.baeldung.com/jackson-yaml
+https://www.w3schools.io/file/yaml-java-read-write/
+
+// as MAP
+https://stackabuse.com/reading-and-writing-yaml-files-in-java-with-snakeyaml/
+
+
+// data format
+https://www.w3docs.com/snippets/java/java-format-yyyy-mm-ddt-hh-mm-ss-sssz-to-yyyy-mm-dd-hh-mm-ss.html
+
+
+
+ mvn install exec:java -Dduration=10 -DcreatedBy=y0s053a -Dcomment="testing flow" -DsilenceScus=true
+
+java -Dduration=10 -DcreatedBy=y0s053a -Dcomment="testing flow" -DsilenceScus=true -jar /Users/y0s053a/Documents/personal-work/StressTestSilenceAlerts/target/StressTestSilenceAlerts-1.0-jar-with-dependencies.jar
+
+
+
+java -DscusSilencePath=/Users/y0s053a/Documents/testingSilenceAlerts/rules.yaml -Dduration=10 -DcreatedBy=y0s053a -Dcomment="testing flow" -DsilenceScus=true -jar /Users/y0s053a/Documents/personal-work/StressTestSilenceAlerts/target/StressTestSilenceAlerts-1.0-jar-with-dependencies.jar
